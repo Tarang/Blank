@@ -1,5 +1,3 @@
-var x = new Meteor.Coll.x
-
 if (Meteor.isClient) {
   Template.hello.greeting = function () {
     return "Welcome to Blank.";
@@ -10,7 +8,7 @@ if (Meteor.isClient) {
       // template data, if any, is available in 'this'
       if (typeof console !== 'undefined')
         console.log("You pressed the button");
-      alert("This is a test");
+      alert("This is a test - Working");
     }
   });
 }
